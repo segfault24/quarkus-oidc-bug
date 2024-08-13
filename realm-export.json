@@ -1,0 +1,42 @@
+{
+  "id": "2220e7c8-a7a8-4d29-8ff4-d5ada0f48b41",
+  "realm": "quarkus",
+  "enabled": true,
+  "clients": [
+    {
+      "id": "e689f3db-ff9c-4d31-b233-fcc5cb762d3b",
+      "clientId": "test-client",
+      "enabled": true,
+      "redirectUris": [
+        "/*"
+      ],
+      "webOrigins": [
+        "/*"
+      ],
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "publicClient": true,
+      "protocol": "openid-connect"
+    }
+  ],
+  "users": [
+    {
+      "id": "050a5ca0-c5d5-4205-a02c-1e701335c97a",
+      "username": "alice",
+      "firstName": "alice",
+      "lastName": "alice",
+      "email": "alice@example.com",
+      "emailVerified": true,
+      "createdTimestamp": 1723514397223,
+      "enabled": true,
+      "credentials": [{
+        "id": "11c9764a-d40f-407a-bbc0-e3831d36cc4f",
+        "type": "password",
+        "userLabel": "My password",
+        "createdDate": 1723514397223,
+        "secretData": "{\"value\":\"kEUz54hegO6vaI8ZnlKdj36LpPsdUOrDs7cNswcyZS8=\",\"salt\":\"SGgjb4IKFCMu8qLmO+DTbA==\",\"additionalParameters\":{}}",
+        "credentialData": "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+      }]
+    }
+  ]
+}
